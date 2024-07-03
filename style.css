@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  width: 30rem;
+  background: hsl(0, 0%, 100%);
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+img {
+  width: 29rem;
+  border-radius: 0.5rem;
+}
+
+.conteudo {
+  text-align: start;
+  padding: 0.5rem;
+}
+
+ul,
+ol {
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0.5rem 0 0 0;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+p{
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding: 1rem 0;
+  color: hsl(30, 10%, 34%);
+}
+
+.tempo{
+  background: hsl(330, 100%, 98%);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.tempo h3{
+  font-weight: 600;
+  font-size: 1rem;
+  color: hsl(332, 51%, 32%);
+}
+
+span{
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.tempo li{
+  line-height: 1.3rem;
+  padding: 0 0 0 1rem;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+
+.tempo li::marker{
+  color: hsl(332, 51%, 32%);
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+h2{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: hsl(14, 45%, 36%);
+}
+
+li::marker{
+  color: hsl(14, 45%, 36%);
+  font-size: 0.6rem;
+}
+
+li{
+  padding: 0 0 0 1rem;
+  font-size: 0.6rem;
+  line-height: 1.3rem;
+  color: hsl(30, 10%, 34%);
+  font-weight: 600;
+}
+
+hr{
+  margin: 0.5rem 0 1rem 0;
+  border: none;
+  background: hsl(30, 18%, 87%);
+  height: 1px;
+}
+
+ol li::marker{
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+}
+
+td {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.tipo{
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+
+.ultima{
+  border-bottom: none;
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  display: grid;
+  place-content: center;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", serif;
+  font-size: 1.3rem;
+}
+
+main{
+  max-width: 60rem;
+  background-color: #fff;
+  margin: 5rem 0;
+  border-radius: 0.5rem;
+}
+
+.imagem{
+  padding: 3rem;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+article{
+  padding: 0 3rem 3rem 3rem;
+}
+
+h1{
+  font-size: 3rem;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 1rem;
+}
+
+.descricao{
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 3rem;
+}
+
+.preparationTime{
+  padding: 2rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 0.5rem;
+}
+
+ul, ol{
+  margin: 0 2rem;
+  padding-top: 1rem;
+}
+
+li{
+  padding:.2rem 1rem;
+}
+
+.preparationTime li::marker, 
+.preparationTime h2{
+  color: hsl(332, 51%, 32%);
+}
+
+p{
+  font-weight: bold;
+  color: hsl(30, 10%, 34%);
+}
+
+span{
+  font-weight: 400;
+}
+
+li:not(.instructions li){
+  list-style: square;
+}
+
+li::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+li{
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+
+h2:not(.preparationTime h2){
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+}
+
+.ingredients{
+  margin: 2rem 0;
+}
+
+.instructions{
+  margin: 2rem 0;
+  border-top: 2px solid hsl(30, 18%, 87%);
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+  padding: 2rem 0;
+}
+
+ol li{
+  padding: 0.5rem 1rem;
+}
+
+ol li::marker{
+  font-weight: bold;
+}
+
+.nutrition p{
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.tabela ul li{
+  list-style: none;
+  padding: 0.5rem 3rem;
+}
+
+.tabela ul{
+  margin: 0;
+}
+
+.tabela div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.info{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.tabela li:not(:last-child){
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+@media(width <= 1000px){
+  main{
+    margin: 0;
+  }
+}
+
+@media(width <= 600px){
+  .imagem{
+    padding: 0;
+  }
+
+  article{
+    padding: 1rem;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  p, span{
+    font-size: 1rem;
+  }
+}
